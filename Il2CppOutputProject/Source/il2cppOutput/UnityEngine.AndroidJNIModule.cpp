@@ -1,0 +1,1496 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821;
+struct AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075;
+struct String_t;
+struct StringBuilder_t;
+
+IL2CPP_EXTERN_C RuntimeClass* AndroidColorModeHdr_tE0E9D808818217EAEDBF9DE6BB88C437B5FE0040_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidColorModeWideColorGamut_t9E9605086E49D99845E6A23906896ADD8812B56C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidHardwareKeyboardHidden_t2CC99DE76308CA902E994D5A793002E232A6DB2F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidKeyboardHidden_tFA2D3BAC613257B05627D90C6FB1ECE26DCE1929_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidKeyboard_tE09A75A934D79872F1C32D41AE55C821DC984705_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidNavigationHidden_t3FAFADA8E00EE4250F9D6727AB366C2236902626_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidNavigation_t0AD1C417E0628F858C9DE8181F7B9F347DDCE8BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidOrientation_t9DB546BA6E552F1BF3F7E148E5306C16A051C949_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidScreenLayoutDirection_tD8A0AECCD98997F281372B785E3EC65B8557E01B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidScreenLayoutLong_t088CC399EAFB6B0C25DE08922948BC5288711260_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidScreenLayoutRound_t2B8F508818FD9AB6CD2E57356F3E3201895770F4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidScreenLayoutSize_t49D55FCDAC84D0DC194D40D3F15EBC8C2DA6C251_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidTouchScreen_tD17E6F752ACDF758AD0CFC5758068F3C607C0AF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidUIModeNight_t913D48AD5C226C85AB9A0D844677705F946A731D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AndroidUIModeType_t11665FD6F15C1B5060FF3085E50CAAB23CF90889_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral0F072CCE7D329460187EFEA1CCB5B7214C86C971;
+IL2CPP_EXTERN_C String_t* _stringLiteral10933E64C71A9E1E7E0C74ACE385513935D69E64;
+IL2CPP_EXTERN_C String_t* _stringLiteral1AB39AEF605AFCE8F11BBE0F6EBADF5BAF053CAE;
+IL2CPP_EXTERN_C String_t* _stringLiteral291EE628C4887577812D359C2FAC20155EA639F3;
+IL2CPP_EXTERN_C String_t* _stringLiteral29E8E9D81D577B9968CD9860EFE30FFF3A5EC67F;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B7D61E63C5224F29AAB641D5B978832765CEE99;
+IL2CPP_EXTERN_C String_t* _stringLiteral41868C31D37EF057F9E01F4D9D7A2DBCFA859B24;
+IL2CPP_EXTERN_C String_t* _stringLiteral4A01459ECE845EF0266F0140CB8C436792856709;
+IL2CPP_EXTERN_C String_t* _stringLiteral52C1A067CFA932249E98DD0DE4AF06B570E517B8;
+IL2CPP_EXTERN_C String_t* _stringLiteral58A7A62966487B309794FF274218FBB8528C3DC1;
+IL2CPP_EXTERN_C String_t* _stringLiteral59014B480CF6FA4C4CF52D01310FF21C7BD48F91;
+IL2CPP_EXTERN_C String_t* _stringLiteral684EA8D9F058F9FE7CF5D0B7642F27D950EE4B8C;
+IL2CPP_EXTERN_C String_t* _stringLiteral6FF087159294FFD1190D4738EA191635925F6673;
+IL2CPP_EXTERN_C String_t* _stringLiteral70FA5B0F6AC861E5BA522C461721875C5E8101F0;
+IL2CPP_EXTERN_C String_t* _stringLiteral77B8B55C5040AC9D1BDABB2A6CD417E2E7A85F6C;
+IL2CPP_EXTERN_C String_t* _stringLiteral7CB94670BBE2FAEA3C421F7C3C0337D883116FB5;
+IL2CPP_EXTERN_C String_t* _stringLiteral9092B0DD79ABA16A1F923C923A92D45CEF57B3DC;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D0022B36CE5A8E94E5F09C68F5089031FD2500C;
+IL2CPP_EXTERN_C String_t* _stringLiteralA6C629734987A4963D1A42F0033DCBC30542978C;
+IL2CPP_EXTERN_C String_t* _stringLiteralC53110DE3C8FCBD793F1431337AFE51B896E53B2;
+IL2CPP_EXTERN_C String_t* _stringLiteralCABC7F1D2386EE8F5D31D51418FCBFCA5D58B85D;
+IL2CPP_EXTERN_C String_t* _stringLiteralD4FCDA40FDE359E51ADC0EDDBDAD13B410065E48;
+IL2CPP_EXTERN_C String_t* _stringLiteralDCA34AD3D72A8DEAA5C7C5EADAD87690F376E8A7;
+IL2CPP_EXTERN_C String_t* _stringLiteralE28409D546018309EA6CCD83BA4AF5E49DFAE876;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3741E00506888E2217B171870EFBC8D81CDBC4D;
+
+struct AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t72288DCFA45FEA57618C4D622E6CC0D7F3747E3F 
+{
+};
+struct AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075  : public RuntimeObject
+{
+	String_t* ___U3CcountryU3Ek__BackingField;
+	String_t* ___U3ClanguageU3Ek__BackingField;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct StringBuilder_t  : public RuntimeObject
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_ChunkChars;
+	StringBuilder_t* ___m_ChunkPrevious;
+	int32_t ___m_ChunkLength;
+	int32_t ___m_ChunkOffset;
+	int32_t ___m_MaxCapacity;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct AndroidColorModeHdr_tE0E9D808818217EAEDBF9DE6BB88C437B5FE0040 
+{
+	int32_t ___value__;
+};
+struct AndroidColorModeWideColorGamut_t9E9605086E49D99845E6A23906896ADD8812B56C 
+{
+	int32_t ___value__;
+};
+struct AndroidHardwareKeyboardHidden_t2CC99DE76308CA902E994D5A793002E232A6DB2F 
+{
+	int32_t ___value__;
+};
+struct AndroidKeyboard_tE09A75A934D79872F1C32D41AE55C821DC984705 
+{
+	int32_t ___value__;
+};
+struct AndroidKeyboardHidden_tFA2D3BAC613257B05627D90C6FB1ECE26DCE1929 
+{
+	int32_t ___value__;
+};
+struct AndroidNavigation_t0AD1C417E0628F858C9DE8181F7B9F347DDCE8BC 
+{
+	int32_t ___value__;
+};
+struct AndroidNavigationHidden_t3FAFADA8E00EE4250F9D6727AB366C2236902626 
+{
+	int32_t ___value__;
+};
+struct AndroidOrientation_t9DB546BA6E552F1BF3F7E148E5306C16A051C949 
+{
+	int32_t ___value__;
+};
+struct AndroidScreenLayoutDirection_tD8A0AECCD98997F281372B785E3EC65B8557E01B 
+{
+	int32_t ___value__;
+};
+struct AndroidScreenLayoutLong_t088CC399EAFB6B0C25DE08922948BC5288711260 
+{
+	int32_t ___value__;
+};
+struct AndroidScreenLayoutRound_t2B8F508818FD9AB6CD2E57356F3E3201895770F4 
+{
+	int32_t ___value__;
+};
+struct AndroidScreenLayoutSize_t49D55FCDAC84D0DC194D40D3F15EBC8C2DA6C251 
+{
+	int32_t ___value__;
+};
+struct AndroidTouchScreen_tD17E6F752ACDF758AD0CFC5758068F3C607C0AF7 
+{
+	int32_t ___value__;
+};
+struct AndroidUIModeNight_t913D48AD5C226C85AB9A0D844677705F946A731D 
+{
+	int32_t ___value__;
+};
+struct AndroidUIModeType_t11665FD6F15C1B5060FF3085E50CAAB23CF90889 
+{
+	int32_t ___value__;
+};
+struct AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821  : public RuntimeObject
+{
+	int32_t ___U3CcolorModeU3Ek__BackingField;
+	int32_t ___U3CdensityDpiU3Ek__BackingField;
+	float ___U3CfontScaleU3Ek__BackingField;
+	int32_t ___U3CfontWeightAdjustmentU3Ek__BackingField;
+	int32_t ___U3CkeyboardU3Ek__BackingField;
+	int32_t ___U3ChardKeyboardHiddenU3Ek__BackingField;
+	int32_t ___U3CkeyboardHiddenU3Ek__BackingField;
+	int32_t ___U3CmobileCountryCodeU3Ek__BackingField;
+	int32_t ___U3CmobileNetworkCodeU3Ek__BackingField;
+	int32_t ___U3CnavigationU3Ek__BackingField;
+	int32_t ___U3CnavigationHiddenU3Ek__BackingField;
+	int32_t ___U3CorientationU3Ek__BackingField;
+	int32_t ___U3CscreenHeightDpU3Ek__BackingField;
+	int32_t ___U3CscreenWidthDpU3Ek__BackingField;
+	int32_t ___U3CsmallestScreenWidthDpU3Ek__BackingField;
+	int32_t ___U3CscreenLayoutU3Ek__BackingField;
+	int32_t ___U3CtouchScreenU3Ek__BackingField;
+	int32_t ___U3CuiModeU3Ek__BackingField;
+	String_t* ___U3CprimaryLocaleCountryU3Ek__BackingField;
+	String_t* ___U3CprimaryLocaleLanguageU3Ek__BackingField;
+};
+struct AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_pinvoke
+{
+	int32_t ___U3CcolorModeU3Ek__BackingField;
+	int32_t ___U3CdensityDpiU3Ek__BackingField;
+	float ___U3CfontScaleU3Ek__BackingField;
+	int32_t ___U3CfontWeightAdjustmentU3Ek__BackingField;
+	int32_t ___U3CkeyboardU3Ek__BackingField;
+	int32_t ___U3ChardKeyboardHiddenU3Ek__BackingField;
+	int32_t ___U3CkeyboardHiddenU3Ek__BackingField;
+	int32_t ___U3CmobileCountryCodeU3Ek__BackingField;
+	int32_t ___U3CmobileNetworkCodeU3Ek__BackingField;
+	int32_t ___U3CnavigationU3Ek__BackingField;
+	int32_t ___U3CnavigationHiddenU3Ek__BackingField;
+	int32_t ___U3CorientationU3Ek__BackingField;
+	int32_t ___U3CscreenHeightDpU3Ek__BackingField;
+	int32_t ___U3CscreenWidthDpU3Ek__BackingField;
+	int32_t ___U3CsmallestScreenWidthDpU3Ek__BackingField;
+	int32_t ___U3CscreenLayoutU3Ek__BackingField;
+	int32_t ___U3CtouchScreenU3Ek__BackingField;
+	int32_t ___U3CuiModeU3Ek__BackingField;
+	char* ___U3CprimaryLocaleCountryU3Ek__BackingField;
+	char* ___U3CprimaryLocaleLanguageU3Ek__BackingField;
+};
+struct AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_com
+{
+	int32_t ___U3CcolorModeU3Ek__BackingField;
+	int32_t ___U3CdensityDpiU3Ek__BackingField;
+	float ___U3CfontScaleU3Ek__BackingField;
+	int32_t ___U3CfontWeightAdjustmentU3Ek__BackingField;
+	int32_t ___U3CkeyboardU3Ek__BackingField;
+	int32_t ___U3ChardKeyboardHiddenU3Ek__BackingField;
+	int32_t ___U3CkeyboardHiddenU3Ek__BackingField;
+	int32_t ___U3CmobileCountryCodeU3Ek__BackingField;
+	int32_t ___U3CmobileNetworkCodeU3Ek__BackingField;
+	int32_t ___U3CnavigationU3Ek__BackingField;
+	int32_t ___U3CnavigationHiddenU3Ek__BackingField;
+	int32_t ___U3CorientationU3Ek__BackingField;
+	int32_t ___U3CscreenHeightDpU3Ek__BackingField;
+	int32_t ___U3CscreenWidthDpU3Ek__BackingField;
+	int32_t ___U3CsmallestScreenWidthDpU3Ek__BackingField;
+	int32_t ___U3CscreenLayoutU3Ek__BackingField;
+	int32_t ___U3CtouchScreenU3Ek__BackingField;
+	int32_t ___U3CuiModeU3Ek__BackingField;
+	Il2CppChar* ___U3CprimaryLocaleCountryU3Ek__BackingField;
+	Il2CppChar* ___U3CprimaryLocaleLanguageU3Ek__BackingField;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1  : public RuntimeArray
+{
+	ALIGN_FIELD (8) AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* m_Items[1];
+
+	inline AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidConfiguration_get_primaryLocaleCountry_m3BF98232E5121A9957EE0771B2FE96D59A07FED9_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidConfiguration_get_primaryLocaleLanguage_m6036D7716067E3C52579AEF10AB67FA5E2AF034F_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidLocale__ctor_m9E07C7046CD091CDB042C5D34B156C71DCAB38B2 (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, String_t* ___0__country, String_t* ___1__language, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_colorMode_m700935DC2CE77048A2A0C85C3A8110C7447BCFDA_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayout_m11128E91C2918F74228B7A75CD553CBDD0DEE4C0_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_uiMode_mE108E6B5938F07F4A2EBC69EE162A6574B731339_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_colorModeHdr_mDA12A1054FBF6C71ED9FF1884E4E86FAA485714E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88 (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_colorModeWideColorGamut_m7062BAD7638613D42A5265ADF40EA2F05C7FF630 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_densityDpi_m6DCB1B6665634092B927CB51572C6C906B70A8C9_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AndroidConfiguration_get_fontScale_m22CED04AD4608BB978F7332836F19FE43095484B_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_fontWeightAdjustment_mE46C6D355401711B3048E9FE63003D6BD7083B04_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_keyboard_mE9C11E5BB3F8EC3599A296CD137A09F998C1052C_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_hardKeyboardHidden_mE3102E5F9769936ACB6151FF777F4EF372EB8A34_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_keyboardHidden_m0BAEC76E37F070768AF06E39BEB9B2F654D89007_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_mobileCountryCode_m9CA2BB13341BBDC11E5B650CF1B85B6D40303728_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_mobileNetworkCode_mC013A6F34F638F8F401A239441D1DB8C5918EF63_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_navigation_m60398238358F9FB7E2859FC0E906FB2E10316431_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_navigationHidden_m6FDF5368AF77535033F4039A0D31A304A87D9F5E_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_orientation_mB50EB15E1DCAD234EC7921E8F41F8AF5678F7207_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenHeightDp_m50773C7C10A7C117D47C651570138D4322D07FD1_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenWidthDp_m20B096B98845195E74BEB7CBCC80B2FD7A164AD9_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_smallestScreenWidthDp_mDA11BF662C316CA2DAD21D113C22AEFD5CF75645_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutDirection_mF0650B4F3641A6167FF33D7EA519C4EB7B7990BA (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutSize_mA18253406CBD702D355073E0FA1A182AA428BA71 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutLong_m4BF5DEC402CC76D24A77B2AE05FB80A6FEB49E2E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutRound_m98C9A129BAE1454BB9BD605D84217A06B09BC008 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_touchScreen_m88019DA5E4BF5F1425386D3A537615EAA777F583_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_uiModeNight_m3561F470AF4D4BC9AFC6583DE93F861CF8FFEFEC (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_uiModeType_mCC57F1E35C09495E9A3FD7CBD57778131E4A4D8E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* AndroidConfiguration_get_locales_m553A090728CB5588C2C3446B9049EFC48829992E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidLocale_get_country_m4CF55D4A3CFD71553C727DB60A539CBD1D732456_inline (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidLocale_get_language_m78BC34CC08937A1B4B6B70518179902C0824AA73_inline (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidLocale_get_country_m4CF55D4A3CFD71553C727DB60A539CBD1D732456 (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CcountryU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidLocale_get_language_m78BC34CC08937A1B4B6B70518179902C0824AA73 (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3ClanguageU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidLocale__ctor_m9E07C7046CD091CDB042C5D34B156C71DCAB38B2 (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, String_t* ___0__country, String_t* ___1__language, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		String_t* L_0 = ___0__country;
+		__this->___U3CcountryU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcountryU3Ek__BackingField), (void*)L_0);
+		String_t* L_1 = ___1__language;
+		__this->___U3ClanguageU3Ek__BackingField = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ClanguageU3Ek__BackingField), (void*)L_1);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshal_pinvoke(const AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821& unmarshaled, AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_pinvoke& marshaled)
+{
+	marshaled.___U3CcolorModeU3Ek__BackingField = unmarshaled.___U3CcolorModeU3Ek__BackingField;
+	marshaled.___U3CdensityDpiU3Ek__BackingField = unmarshaled.___U3CdensityDpiU3Ek__BackingField;
+	marshaled.___U3CfontScaleU3Ek__BackingField = unmarshaled.___U3CfontScaleU3Ek__BackingField;
+	marshaled.___U3CfontWeightAdjustmentU3Ek__BackingField = unmarshaled.___U3CfontWeightAdjustmentU3Ek__BackingField;
+	marshaled.___U3CkeyboardU3Ek__BackingField = unmarshaled.___U3CkeyboardU3Ek__BackingField;
+	marshaled.___U3ChardKeyboardHiddenU3Ek__BackingField = unmarshaled.___U3ChardKeyboardHiddenU3Ek__BackingField;
+	marshaled.___U3CkeyboardHiddenU3Ek__BackingField = unmarshaled.___U3CkeyboardHiddenU3Ek__BackingField;
+	marshaled.___U3CmobileCountryCodeU3Ek__BackingField = unmarshaled.___U3CmobileCountryCodeU3Ek__BackingField;
+	marshaled.___U3CmobileNetworkCodeU3Ek__BackingField = unmarshaled.___U3CmobileNetworkCodeU3Ek__BackingField;
+	marshaled.___U3CnavigationU3Ek__BackingField = unmarshaled.___U3CnavigationU3Ek__BackingField;
+	marshaled.___U3CnavigationHiddenU3Ek__BackingField = unmarshaled.___U3CnavigationHiddenU3Ek__BackingField;
+	marshaled.___U3CorientationU3Ek__BackingField = unmarshaled.___U3CorientationU3Ek__BackingField;
+	marshaled.___U3CscreenHeightDpU3Ek__BackingField = unmarshaled.___U3CscreenHeightDpU3Ek__BackingField;
+	marshaled.___U3CscreenWidthDpU3Ek__BackingField = unmarshaled.___U3CscreenWidthDpU3Ek__BackingField;
+	marshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField = unmarshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField;
+	marshaled.___U3CscreenLayoutU3Ek__BackingField = unmarshaled.___U3CscreenLayoutU3Ek__BackingField;
+	marshaled.___U3CtouchScreenU3Ek__BackingField = unmarshaled.___U3CtouchScreenU3Ek__BackingField;
+	marshaled.___U3CuiModeU3Ek__BackingField = unmarshaled.___U3CuiModeU3Ek__BackingField;
+	marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CprimaryLocaleCountryU3Ek__BackingField);
+	marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField = il2cpp_codegen_marshal_string(unmarshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField);
+}
+IL2CPP_EXTERN_C void AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshal_pinvoke_back(const AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_pinvoke& marshaled, AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821& unmarshaled)
+{
+	int32_t unmarshaledU3CcolorModeU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CcolorModeU3Ek__BackingField_temp_0 = marshaled.___U3CcolorModeU3Ek__BackingField;
+	unmarshaled.___U3CcolorModeU3Ek__BackingField = unmarshaledU3CcolorModeU3Ek__BackingField_temp_0;
+	int32_t unmarshaledU3CdensityDpiU3Ek__BackingField_temp_1 = 0;
+	unmarshaledU3CdensityDpiU3Ek__BackingField_temp_1 = marshaled.___U3CdensityDpiU3Ek__BackingField;
+	unmarshaled.___U3CdensityDpiU3Ek__BackingField = unmarshaledU3CdensityDpiU3Ek__BackingField_temp_1;
+	float unmarshaledU3CfontScaleU3Ek__BackingField_temp_2 = 0.0f;
+	unmarshaledU3CfontScaleU3Ek__BackingField_temp_2 = marshaled.___U3CfontScaleU3Ek__BackingField;
+	unmarshaled.___U3CfontScaleU3Ek__BackingField = unmarshaledU3CfontScaleU3Ek__BackingField_temp_2;
+	int32_t unmarshaledU3CfontWeightAdjustmentU3Ek__BackingField_temp_3 = 0;
+	unmarshaledU3CfontWeightAdjustmentU3Ek__BackingField_temp_3 = marshaled.___U3CfontWeightAdjustmentU3Ek__BackingField;
+	unmarshaled.___U3CfontWeightAdjustmentU3Ek__BackingField = unmarshaledU3CfontWeightAdjustmentU3Ek__BackingField_temp_3;
+	int32_t unmarshaledU3CkeyboardU3Ek__BackingField_temp_4 = 0;
+	unmarshaledU3CkeyboardU3Ek__BackingField_temp_4 = marshaled.___U3CkeyboardU3Ek__BackingField;
+	unmarshaled.___U3CkeyboardU3Ek__BackingField = unmarshaledU3CkeyboardU3Ek__BackingField_temp_4;
+	int32_t unmarshaledU3ChardKeyboardHiddenU3Ek__BackingField_temp_5 = 0;
+	unmarshaledU3ChardKeyboardHiddenU3Ek__BackingField_temp_5 = marshaled.___U3ChardKeyboardHiddenU3Ek__BackingField;
+	unmarshaled.___U3ChardKeyboardHiddenU3Ek__BackingField = unmarshaledU3ChardKeyboardHiddenU3Ek__BackingField_temp_5;
+	int32_t unmarshaledU3CkeyboardHiddenU3Ek__BackingField_temp_6 = 0;
+	unmarshaledU3CkeyboardHiddenU3Ek__BackingField_temp_6 = marshaled.___U3CkeyboardHiddenU3Ek__BackingField;
+	unmarshaled.___U3CkeyboardHiddenU3Ek__BackingField = unmarshaledU3CkeyboardHiddenU3Ek__BackingField_temp_6;
+	int32_t unmarshaledU3CmobileCountryCodeU3Ek__BackingField_temp_7 = 0;
+	unmarshaledU3CmobileCountryCodeU3Ek__BackingField_temp_7 = marshaled.___U3CmobileCountryCodeU3Ek__BackingField;
+	unmarshaled.___U3CmobileCountryCodeU3Ek__BackingField = unmarshaledU3CmobileCountryCodeU3Ek__BackingField_temp_7;
+	int32_t unmarshaledU3CmobileNetworkCodeU3Ek__BackingField_temp_8 = 0;
+	unmarshaledU3CmobileNetworkCodeU3Ek__BackingField_temp_8 = marshaled.___U3CmobileNetworkCodeU3Ek__BackingField;
+	unmarshaled.___U3CmobileNetworkCodeU3Ek__BackingField = unmarshaledU3CmobileNetworkCodeU3Ek__BackingField_temp_8;
+	int32_t unmarshaledU3CnavigationU3Ek__BackingField_temp_9 = 0;
+	unmarshaledU3CnavigationU3Ek__BackingField_temp_9 = marshaled.___U3CnavigationU3Ek__BackingField;
+	unmarshaled.___U3CnavigationU3Ek__BackingField = unmarshaledU3CnavigationU3Ek__BackingField_temp_9;
+	int32_t unmarshaledU3CnavigationHiddenU3Ek__BackingField_temp_10 = 0;
+	unmarshaledU3CnavigationHiddenU3Ek__BackingField_temp_10 = marshaled.___U3CnavigationHiddenU3Ek__BackingField;
+	unmarshaled.___U3CnavigationHiddenU3Ek__BackingField = unmarshaledU3CnavigationHiddenU3Ek__BackingField_temp_10;
+	int32_t unmarshaledU3CorientationU3Ek__BackingField_temp_11 = 0;
+	unmarshaledU3CorientationU3Ek__BackingField_temp_11 = marshaled.___U3CorientationU3Ek__BackingField;
+	unmarshaled.___U3CorientationU3Ek__BackingField = unmarshaledU3CorientationU3Ek__BackingField_temp_11;
+	int32_t unmarshaledU3CscreenHeightDpU3Ek__BackingField_temp_12 = 0;
+	unmarshaledU3CscreenHeightDpU3Ek__BackingField_temp_12 = marshaled.___U3CscreenHeightDpU3Ek__BackingField;
+	unmarshaled.___U3CscreenHeightDpU3Ek__BackingField = unmarshaledU3CscreenHeightDpU3Ek__BackingField_temp_12;
+	int32_t unmarshaledU3CscreenWidthDpU3Ek__BackingField_temp_13 = 0;
+	unmarshaledU3CscreenWidthDpU3Ek__BackingField_temp_13 = marshaled.___U3CscreenWidthDpU3Ek__BackingField;
+	unmarshaled.___U3CscreenWidthDpU3Ek__BackingField = unmarshaledU3CscreenWidthDpU3Ek__BackingField_temp_13;
+	int32_t unmarshaledU3CsmallestScreenWidthDpU3Ek__BackingField_temp_14 = 0;
+	unmarshaledU3CsmallestScreenWidthDpU3Ek__BackingField_temp_14 = marshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField;
+	unmarshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField = unmarshaledU3CsmallestScreenWidthDpU3Ek__BackingField_temp_14;
+	int32_t unmarshaledU3CscreenLayoutU3Ek__BackingField_temp_15 = 0;
+	unmarshaledU3CscreenLayoutU3Ek__BackingField_temp_15 = marshaled.___U3CscreenLayoutU3Ek__BackingField;
+	unmarshaled.___U3CscreenLayoutU3Ek__BackingField = unmarshaledU3CscreenLayoutU3Ek__BackingField_temp_15;
+	int32_t unmarshaledU3CtouchScreenU3Ek__BackingField_temp_16 = 0;
+	unmarshaledU3CtouchScreenU3Ek__BackingField_temp_16 = marshaled.___U3CtouchScreenU3Ek__BackingField;
+	unmarshaled.___U3CtouchScreenU3Ek__BackingField = unmarshaledU3CtouchScreenU3Ek__BackingField_temp_16;
+	int32_t unmarshaledU3CuiModeU3Ek__BackingField_temp_17 = 0;
+	unmarshaledU3CuiModeU3Ek__BackingField_temp_17 = marshaled.___U3CuiModeU3Ek__BackingField;
+	unmarshaled.___U3CuiModeU3Ek__BackingField = unmarshaledU3CuiModeU3Ek__BackingField_temp_17;
+	unmarshaled.___U3CprimaryLocaleCountryU3Ek__BackingField = il2cpp_codegen_marshal_string_result(marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CprimaryLocaleCountryU3Ek__BackingField), (void*)il2cpp_codegen_marshal_string_result(marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField));
+	unmarshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField = il2cpp_codegen_marshal_string_result(marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField), (void*)il2cpp_codegen_marshal_string_result(marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField));
+}
+IL2CPP_EXTERN_C void AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshal_pinvoke_cleanup(AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField);
+	marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free(marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField);
+	marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField = NULL;
+}
+IL2CPP_EXTERN_C void AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshal_com(const AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821& unmarshaled, AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_com& marshaled)
+{
+	marshaled.___U3CcolorModeU3Ek__BackingField = unmarshaled.___U3CcolorModeU3Ek__BackingField;
+	marshaled.___U3CdensityDpiU3Ek__BackingField = unmarshaled.___U3CdensityDpiU3Ek__BackingField;
+	marshaled.___U3CfontScaleU3Ek__BackingField = unmarshaled.___U3CfontScaleU3Ek__BackingField;
+	marshaled.___U3CfontWeightAdjustmentU3Ek__BackingField = unmarshaled.___U3CfontWeightAdjustmentU3Ek__BackingField;
+	marshaled.___U3CkeyboardU3Ek__BackingField = unmarshaled.___U3CkeyboardU3Ek__BackingField;
+	marshaled.___U3ChardKeyboardHiddenU3Ek__BackingField = unmarshaled.___U3ChardKeyboardHiddenU3Ek__BackingField;
+	marshaled.___U3CkeyboardHiddenU3Ek__BackingField = unmarshaled.___U3CkeyboardHiddenU3Ek__BackingField;
+	marshaled.___U3CmobileCountryCodeU3Ek__BackingField = unmarshaled.___U3CmobileCountryCodeU3Ek__BackingField;
+	marshaled.___U3CmobileNetworkCodeU3Ek__BackingField = unmarshaled.___U3CmobileNetworkCodeU3Ek__BackingField;
+	marshaled.___U3CnavigationU3Ek__BackingField = unmarshaled.___U3CnavigationU3Ek__BackingField;
+	marshaled.___U3CnavigationHiddenU3Ek__BackingField = unmarshaled.___U3CnavigationHiddenU3Ek__BackingField;
+	marshaled.___U3CorientationU3Ek__BackingField = unmarshaled.___U3CorientationU3Ek__BackingField;
+	marshaled.___U3CscreenHeightDpU3Ek__BackingField = unmarshaled.___U3CscreenHeightDpU3Ek__BackingField;
+	marshaled.___U3CscreenWidthDpU3Ek__BackingField = unmarshaled.___U3CscreenWidthDpU3Ek__BackingField;
+	marshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField = unmarshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField;
+	marshaled.___U3CscreenLayoutU3Ek__BackingField = unmarshaled.___U3CscreenLayoutU3Ek__BackingField;
+	marshaled.___U3CtouchScreenU3Ek__BackingField = unmarshaled.___U3CtouchScreenU3Ek__BackingField;
+	marshaled.___U3CuiModeU3Ek__BackingField = unmarshaled.___U3CuiModeU3Ek__BackingField;
+	marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField = il2cpp_codegen_marshal_bstring(unmarshaled.___U3CprimaryLocaleCountryU3Ek__BackingField);
+	marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField = il2cpp_codegen_marshal_bstring(unmarshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField);
+}
+IL2CPP_EXTERN_C void AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshal_com_back(const AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_com& marshaled, AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821& unmarshaled)
+{
+	int32_t unmarshaledU3CcolorModeU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CcolorModeU3Ek__BackingField_temp_0 = marshaled.___U3CcolorModeU3Ek__BackingField;
+	unmarshaled.___U3CcolorModeU3Ek__BackingField = unmarshaledU3CcolorModeU3Ek__BackingField_temp_0;
+	int32_t unmarshaledU3CdensityDpiU3Ek__BackingField_temp_1 = 0;
+	unmarshaledU3CdensityDpiU3Ek__BackingField_temp_1 = marshaled.___U3CdensityDpiU3Ek__BackingField;
+	unmarshaled.___U3CdensityDpiU3Ek__BackingField = unmarshaledU3CdensityDpiU3Ek__BackingField_temp_1;
+	float unmarshaledU3CfontScaleU3Ek__BackingField_temp_2 = 0.0f;
+	unmarshaledU3CfontScaleU3Ek__BackingField_temp_2 = marshaled.___U3CfontScaleU3Ek__BackingField;
+	unmarshaled.___U3CfontScaleU3Ek__BackingField = unmarshaledU3CfontScaleU3Ek__BackingField_temp_2;
+	int32_t unmarshaledU3CfontWeightAdjustmentU3Ek__BackingField_temp_3 = 0;
+	unmarshaledU3CfontWeightAdjustmentU3Ek__BackingField_temp_3 = marshaled.___U3CfontWeightAdjustmentU3Ek__BackingField;
+	unmarshaled.___U3CfontWeightAdjustmentU3Ek__BackingField = unmarshaledU3CfontWeightAdjustmentU3Ek__BackingField_temp_3;
+	int32_t unmarshaledU3CkeyboardU3Ek__BackingField_temp_4 = 0;
+	unmarshaledU3CkeyboardU3Ek__BackingField_temp_4 = marshaled.___U3CkeyboardU3Ek__BackingField;
+	unmarshaled.___U3CkeyboardU3Ek__BackingField = unmarshaledU3CkeyboardU3Ek__BackingField_temp_4;
+	int32_t unmarshaledU3ChardKeyboardHiddenU3Ek__BackingField_temp_5 = 0;
+	unmarshaledU3ChardKeyboardHiddenU3Ek__BackingField_temp_5 = marshaled.___U3ChardKeyboardHiddenU3Ek__BackingField;
+	unmarshaled.___U3ChardKeyboardHiddenU3Ek__BackingField = unmarshaledU3ChardKeyboardHiddenU3Ek__BackingField_temp_5;
+	int32_t unmarshaledU3CkeyboardHiddenU3Ek__BackingField_temp_6 = 0;
+	unmarshaledU3CkeyboardHiddenU3Ek__BackingField_temp_6 = marshaled.___U3CkeyboardHiddenU3Ek__BackingField;
+	unmarshaled.___U3CkeyboardHiddenU3Ek__BackingField = unmarshaledU3CkeyboardHiddenU3Ek__BackingField_temp_6;
+	int32_t unmarshaledU3CmobileCountryCodeU3Ek__BackingField_temp_7 = 0;
+	unmarshaledU3CmobileCountryCodeU3Ek__BackingField_temp_7 = marshaled.___U3CmobileCountryCodeU3Ek__BackingField;
+	unmarshaled.___U3CmobileCountryCodeU3Ek__BackingField = unmarshaledU3CmobileCountryCodeU3Ek__BackingField_temp_7;
+	int32_t unmarshaledU3CmobileNetworkCodeU3Ek__BackingField_temp_8 = 0;
+	unmarshaledU3CmobileNetworkCodeU3Ek__BackingField_temp_8 = marshaled.___U3CmobileNetworkCodeU3Ek__BackingField;
+	unmarshaled.___U3CmobileNetworkCodeU3Ek__BackingField = unmarshaledU3CmobileNetworkCodeU3Ek__BackingField_temp_8;
+	int32_t unmarshaledU3CnavigationU3Ek__BackingField_temp_9 = 0;
+	unmarshaledU3CnavigationU3Ek__BackingField_temp_9 = marshaled.___U3CnavigationU3Ek__BackingField;
+	unmarshaled.___U3CnavigationU3Ek__BackingField = unmarshaledU3CnavigationU3Ek__BackingField_temp_9;
+	int32_t unmarshaledU3CnavigationHiddenU3Ek__BackingField_temp_10 = 0;
+	unmarshaledU3CnavigationHiddenU3Ek__BackingField_temp_10 = marshaled.___U3CnavigationHiddenU3Ek__BackingField;
+	unmarshaled.___U3CnavigationHiddenU3Ek__BackingField = unmarshaledU3CnavigationHiddenU3Ek__BackingField_temp_10;
+	int32_t unmarshaledU3CorientationU3Ek__BackingField_temp_11 = 0;
+	unmarshaledU3CorientationU3Ek__BackingField_temp_11 = marshaled.___U3CorientationU3Ek__BackingField;
+	unmarshaled.___U3CorientationU3Ek__BackingField = unmarshaledU3CorientationU3Ek__BackingField_temp_11;
+	int32_t unmarshaledU3CscreenHeightDpU3Ek__BackingField_temp_12 = 0;
+	unmarshaledU3CscreenHeightDpU3Ek__BackingField_temp_12 = marshaled.___U3CscreenHeightDpU3Ek__BackingField;
+	unmarshaled.___U3CscreenHeightDpU3Ek__BackingField = unmarshaledU3CscreenHeightDpU3Ek__BackingField_temp_12;
+	int32_t unmarshaledU3CscreenWidthDpU3Ek__BackingField_temp_13 = 0;
+	unmarshaledU3CscreenWidthDpU3Ek__BackingField_temp_13 = marshaled.___U3CscreenWidthDpU3Ek__BackingField;
+	unmarshaled.___U3CscreenWidthDpU3Ek__BackingField = unmarshaledU3CscreenWidthDpU3Ek__BackingField_temp_13;
+	int32_t unmarshaledU3CsmallestScreenWidthDpU3Ek__BackingField_temp_14 = 0;
+	unmarshaledU3CsmallestScreenWidthDpU3Ek__BackingField_temp_14 = marshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField;
+	unmarshaled.___U3CsmallestScreenWidthDpU3Ek__BackingField = unmarshaledU3CsmallestScreenWidthDpU3Ek__BackingField_temp_14;
+	int32_t unmarshaledU3CscreenLayoutU3Ek__BackingField_temp_15 = 0;
+	unmarshaledU3CscreenLayoutU3Ek__BackingField_temp_15 = marshaled.___U3CscreenLayoutU3Ek__BackingField;
+	unmarshaled.___U3CscreenLayoutU3Ek__BackingField = unmarshaledU3CscreenLayoutU3Ek__BackingField_temp_15;
+	int32_t unmarshaledU3CtouchScreenU3Ek__BackingField_temp_16 = 0;
+	unmarshaledU3CtouchScreenU3Ek__BackingField_temp_16 = marshaled.___U3CtouchScreenU3Ek__BackingField;
+	unmarshaled.___U3CtouchScreenU3Ek__BackingField = unmarshaledU3CtouchScreenU3Ek__BackingField_temp_16;
+	int32_t unmarshaledU3CuiModeU3Ek__BackingField_temp_17 = 0;
+	unmarshaledU3CuiModeU3Ek__BackingField_temp_17 = marshaled.___U3CuiModeU3Ek__BackingField;
+	unmarshaled.___U3CuiModeU3Ek__BackingField = unmarshaledU3CuiModeU3Ek__BackingField_temp_17;
+	unmarshaled.___U3CprimaryLocaleCountryU3Ek__BackingField = il2cpp_codegen_marshal_bstring_result(marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CprimaryLocaleCountryU3Ek__BackingField), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField));
+	unmarshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField = il2cpp_codegen_marshal_bstring_result(marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField), (void*)il2cpp_codegen_marshal_bstring_result(marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField));
+}
+IL2CPP_EXTERN_C void AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshal_com_cleanup(AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField);
+	marshaled.___U3CprimaryLocaleCountryU3Ek__BackingField = NULL;
+	il2cpp_codegen_marshal_free_bstring(marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField);
+	marshaled.___U3CprimaryLocaleLanguageU3Ek__BackingField = NULL;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_colorMode_m700935DC2CE77048A2A0C85C3A8110C7447BCFDA (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CcolorModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_densityDpi_m6DCB1B6665634092B927CB51572C6C906B70A8C9 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CdensityDpiU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AndroidConfiguration_get_fontScale_m22CED04AD4608BB978F7332836F19FE43095484B (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CfontScaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_fontWeightAdjustment_mE46C6D355401711B3048E9FE63003D6BD7083B04 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CfontWeightAdjustmentU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_keyboard_mE9C11E5BB3F8EC3599A296CD137A09F998C1052C (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CkeyboardU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_hardKeyboardHidden_mE3102E5F9769936ACB6151FF777F4EF372EB8A34 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3ChardKeyboardHiddenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_keyboardHidden_m0BAEC76E37F070768AF06E39BEB9B2F654D89007 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CkeyboardHiddenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_mobileCountryCode_m9CA2BB13341BBDC11E5B650CF1B85B6D40303728 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CmobileCountryCodeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_mobileNetworkCode_mC013A6F34F638F8F401A239441D1DB8C5918EF63 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CmobileNetworkCodeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_navigation_m60398238358F9FB7E2859FC0E906FB2E10316431 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CnavigationU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_navigationHidden_m6FDF5368AF77535033F4039A0D31A304A87D9F5E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CnavigationHiddenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_orientation_mB50EB15E1DCAD234EC7921E8F41F8AF5678F7207 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CorientationU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenHeightDp_m50773C7C10A7C117D47C651570138D4322D07FD1 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CscreenHeightDpU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenWidthDp_m20B096B98845195E74BEB7CBCC80B2FD7A164AD9 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CscreenWidthDpU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_smallestScreenWidthDp_mDA11BF662C316CA2DAD21D113C22AEFD5CF75645 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CsmallestScreenWidthDpU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayout_m11128E91C2918F74228B7A75CD553CBDD0DEE4C0 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CscreenLayoutU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_touchScreen_m88019DA5E4BF5F1425386D3A537615EAA777F583 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CtouchScreenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_uiMode_mE108E6B5938F07F4A2EBC69EE162A6574B731339 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CuiModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidConfiguration_get_primaryLocaleCountry_m3BF98232E5121A9957EE0771B2FE96D59A07FED9 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CprimaryLocaleCountryU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidConfiguration_get_primaryLocaleLanguage_m6036D7716067E3C52579AEF10AB67FA5E2AF034F (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CprimaryLocaleLanguageU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* AndroidConfiguration_get_locales_m553A090728CB5588C2C3446B9049EFC48829992E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* V_1 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		String_t* L_0;
+		L_0 = AndroidConfiguration_get_primaryLocaleCountry_m3BF98232E5121A9957EE0771B2FE96D59A07FED9_inline(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		String_t* L_1;
+		L_1 = AndroidConfiguration_get_primaryLocaleLanguage_m6036D7716067E3C52579AEF10AB67FA5E2AF034F_inline(__this, NULL);
+		G_B3_0 = ((((RuntimeObject*)(String_t*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* L_3 = (AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1*)(AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1*)SZArrayNew(AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1_il2cpp_TypeInfo_var, (uint32_t)0);
+		V_1 = L_3;
+		goto IL_003f;
+	}
+
+IL_0022:
+	{
+		AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* L_4 = (AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1*)(AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1*)SZArrayNew(AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1_il2cpp_TypeInfo_var, (uint32_t)1);
+		AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* L_5 = L_4;
+		String_t* L_6;
+		L_6 = AndroidConfiguration_get_primaryLocaleCountry_m3BF98232E5121A9957EE0771B2FE96D59A07FED9_inline(__this, NULL);
+		String_t* L_7;
+		L_7 = AndroidConfiguration_get_primaryLocaleLanguage_m6036D7716067E3C52579AEF10AB67FA5E2AF034F_inline(__this, NULL);
+		AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* L_8 = (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075*)il2cpp_codegen_object_new(AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075_il2cpp_TypeInfo_var);
+		AndroidLocale__ctor_m9E07C7046CD091CDB042C5D34B156C71DCAB38B2(L_8, L_6, L_7, NULL);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_8);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075*)L_8);
+		V_1 = L_5;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_colorModeHdr_mDA12A1054FBF6C71ED9FF1884E4E86FAA485714E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_colorMode_m700935DC2CE77048A2A0C85C3A8110C7447BCFDA_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&((int32_t)12))));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_colorModeWideColorGamut_m7062BAD7638613D42A5265ADF40EA2F05C7FF630 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_colorMode_m700935DC2CE77048A2A0C85C3A8110C7447BCFDA_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&3)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutDirection_mF0650B4F3641A6167FF33D7EA519C4EB7B7990BA (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_screenLayout_m11128E91C2918F74228B7A75CD553CBDD0DEE4C0_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&((int32_t)192))));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutLong_m4BF5DEC402CC76D24A77B2AE05FB80A6FEB49E2E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_screenLayout_m11128E91C2918F74228B7A75CD553CBDD0DEE4C0_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&((int32_t)48))));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutRound_m98C9A129BAE1454BB9BD605D84217A06B09BC008 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_screenLayout_m11128E91C2918F74228B7A75CD553CBDD0DEE4C0_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&((int32_t)768))));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayoutSize_mA18253406CBD702D355073E0FA1A182AA428BA71 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_screenLayout_m11128E91C2918F74228B7A75CD553CBDD0DEE4C0_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&((int32_t)15))));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_uiModeNight_m3561F470AF4D4BC9AFC6583DE93F861CF8FFEFEC (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_uiMode_mE108E6B5938F07F4A2EBC69EE162A6574B731339_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&((int32_t)48))));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_uiModeType_mCC57F1E35C09495E9A3FD7CBD57778131E4A4D8E (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = AndroidConfiguration_get_uiMode_mE108E6B5938F07F4A2EBC69EE162A6574B731339_inline(__this, NULL);
+		return (int32_t)(((int32_t)(L_0&((int32_t)15))));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AndroidConfiguration_ToString_mFCA4EDDA524358A9BD9D83833DD2A0124DEADB45 (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidColorModeHdr_tE0E9D808818217EAEDBF9DE6BB88C437B5FE0040_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidColorModeWideColorGamut_t9E9605086E49D99845E6A23906896ADD8812B56C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidHardwareKeyboardHidden_t2CC99DE76308CA902E994D5A793002E232A6DB2F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidKeyboardHidden_tFA2D3BAC613257B05627D90C6FB1ECE26DCE1929_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidKeyboard_tE09A75A934D79872F1C32D41AE55C821DC984705_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidNavigationHidden_t3FAFADA8E00EE4250F9D6727AB366C2236902626_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidNavigation_t0AD1C417E0628F858C9DE8181F7B9F347DDCE8BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidOrientation_t9DB546BA6E552F1BF3F7E148E5306C16A051C949_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidScreenLayoutDirection_tD8A0AECCD98997F281372B785E3EC65B8557E01B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidScreenLayoutLong_t088CC399EAFB6B0C25DE08922948BC5288711260_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidScreenLayoutRound_t2B8F508818FD9AB6CD2E57356F3E3201895770F4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidScreenLayoutSize_t49D55FCDAC84D0DC194D40D3F15EBC8C2DA6C251_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidTouchScreen_tD17E6F752ACDF758AD0CFC5758068F3C607C0AF7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidUIModeNight_t913D48AD5C226C85AB9A0D844677705F946A731D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidUIModeType_t11665FD6F15C1B5060FF3085E50CAAB23CF90889_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0F072CCE7D329460187EFEA1CCB5B7214C86C971);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral10933E64C71A9E1E7E0C74ACE385513935D69E64);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1AB39AEF605AFCE8F11BBE0F6EBADF5BAF053CAE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral291EE628C4887577812D359C2FAC20155EA639F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29E8E9D81D577B9968CD9860EFE30FFF3A5EC67F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B7D61E63C5224F29AAB641D5B978832765CEE99);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41868C31D37EF057F9E01F4D9D7A2DBCFA859B24);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A01459ECE845EF0266F0140CB8C436792856709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral52C1A067CFA932249E98DD0DE4AF06B570E517B8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58A7A62966487B309794FF274218FBB8528C3DC1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral59014B480CF6FA4C4CF52D01310FF21C7BD48F91);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral684EA8D9F058F9FE7CF5D0B7642F27D950EE4B8C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6FF087159294FFD1190D4738EA191635925F6673);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70FA5B0F6AC861E5BA522C461721875C5E8101F0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral77B8B55C5040AC9D1BDABB2A6CD417E2E7A85F6C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7CB94670BBE2FAEA3C421F7C3C0337D883116FB5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9092B0DD79ABA16A1F923C923A92D45CEF57B3DC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D0022B36CE5A8E94E5F09C68F5089031FD2500C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA6C629734987A4963D1A42F0033DCBC30542978C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC53110DE3C8FCBD793F1431337AFE51B896E53B2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCABC7F1D2386EE8F5D31D51418FCBFCA5D58B85D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD4FCDA40FDE359E51ADC0EDDBDAD13B410065E48);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDCA34AD3D72A8DEAA5C7C5EADAD87690F376E8A7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE28409D546018309EA6CCD83BA4AF5E49DFAE876);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3741E00506888E2217B171870EFBC8D81CDBC4D);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* V_2 = NULL;
+	bool V_3 = false;
+	String_t* V_4 = NULL;
+	{
+		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
+		V_0 = L_0;
+		StringBuilder_t* L_1 = V_0;
+		int32_t L_2;
+		L_2 = AndroidConfiguration_get_colorModeHdr_mDA12A1054FBF6C71ED9FF1884E4E86FAA485714E(__this, NULL);
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = Box(AndroidColorModeHdr_tE0E9D808818217EAEDBF9DE6BB88C437B5FE0040_il2cpp_TypeInfo_var, &L_3);
+		String_t* L_5;
+		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE28409D546018309EA6CCD83BA4AF5E49DFAE876, L_4, NULL);
+		NullCheck(L_1);
+		StringBuilder_t* L_6;
+		L_6 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_1, L_5, NULL);
+		StringBuilder_t* L_7 = V_0;
+		int32_t L_8;
+		L_8 = AndroidConfiguration_get_colorModeWideColorGamut_m7062BAD7638613D42A5265ADF40EA2F05C7FF630(__this, NULL);
+		int32_t L_9 = L_8;
+		RuntimeObject* L_10 = Box(AndroidColorModeWideColorGamut_t9E9605086E49D99845E6A23906896ADD8812B56C_il2cpp_TypeInfo_var, &L_9);
+		String_t* L_11;
+		L_11 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral58A7A62966487B309794FF274218FBB8528C3DC1, L_10, NULL);
+		NullCheck(L_7);
+		StringBuilder_t* L_12;
+		L_12 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_7, L_11, NULL);
+		StringBuilder_t* L_13 = V_0;
+		int32_t L_14;
+		L_14 = AndroidConfiguration_get_densityDpi_m6DCB1B6665634092B927CB51572C6C906B70A8C9_inline(__this, NULL);
+		int32_t L_15 = L_14;
+		RuntimeObject* L_16 = Box(il2cpp_defaults.int32_class, &L_15);
+		String_t* L_17;
+		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral6FF087159294FFD1190D4738EA191635925F6673, L_16, NULL);
+		NullCheck(L_13);
+		StringBuilder_t* L_18;
+		L_18 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_13, L_17, NULL);
+		StringBuilder_t* L_19 = V_0;
+		float L_20;
+		L_20 = AndroidConfiguration_get_fontScale_m22CED04AD4608BB978F7332836F19FE43095484B_inline(__this, NULL);
+		float L_21 = L_20;
+		RuntimeObject* L_22 = Box(il2cpp_defaults.single_class, &L_21);
+		String_t* L_23;
+		L_23 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3B7D61E63C5224F29AAB641D5B978832765CEE99, L_22, NULL);
+		NullCheck(L_19);
+		StringBuilder_t* L_24;
+		L_24 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_19, L_23, NULL);
+		StringBuilder_t* L_25 = V_0;
+		int32_t L_26;
+		L_26 = AndroidConfiguration_get_fontWeightAdjustment_mE46C6D355401711B3048E9FE63003D6BD7083B04_inline(__this, NULL);
+		int32_t L_27 = L_26;
+		RuntimeObject* L_28 = Box(il2cpp_defaults.int32_class, &L_27);
+		String_t* L_29;
+		L_29 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral52C1A067CFA932249E98DD0DE4AF06B570E517B8, L_28, NULL);
+		NullCheck(L_25);
+		StringBuilder_t* L_30;
+		L_30 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_25, L_29, NULL);
+		StringBuilder_t* L_31 = V_0;
+		int32_t L_32;
+		L_32 = AndroidConfiguration_get_keyboard_mE9C11E5BB3F8EC3599A296CD137A09F998C1052C_inline(__this, NULL);
+		int32_t L_33 = L_32;
+		RuntimeObject* L_34 = Box(AndroidKeyboard_tE09A75A934D79872F1C32D41AE55C821DC984705_il2cpp_TypeInfo_var, &L_33);
+		String_t* L_35;
+		L_35 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral59014B480CF6FA4C4CF52D01310FF21C7BD48F91, L_34, NULL);
+		NullCheck(L_31);
+		StringBuilder_t* L_36;
+		L_36 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_31, L_35, NULL);
+		StringBuilder_t* L_37 = V_0;
+		int32_t L_38;
+		L_38 = AndroidConfiguration_get_hardKeyboardHidden_mE3102E5F9769936ACB6151FF777F4EF372EB8A34_inline(__this, NULL);
+		int32_t L_39 = L_38;
+		RuntimeObject* L_40 = Box(AndroidHardwareKeyboardHidden_t2CC99DE76308CA902E994D5A793002E232A6DB2F_il2cpp_TypeInfo_var, &L_39);
+		String_t* L_41;
+		L_41 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralD4FCDA40FDE359E51ADC0EDDBDAD13B410065E48, L_40, NULL);
+		NullCheck(L_37);
+		StringBuilder_t* L_42;
+		L_42 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_37, L_41, NULL);
+		StringBuilder_t* L_43 = V_0;
+		int32_t L_44;
+		L_44 = AndroidConfiguration_get_keyboardHidden_m0BAEC76E37F070768AF06E39BEB9B2F654D89007_inline(__this, NULL);
+		int32_t L_45 = L_44;
+		RuntimeObject* L_46 = Box(AndroidKeyboardHidden_tFA2D3BAC613257B05627D90C6FB1ECE26DCE1929_il2cpp_TypeInfo_var, &L_45);
+		String_t* L_47;
+		L_47 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral70FA5B0F6AC861E5BA522C461721875C5E8101F0, L_46, NULL);
+		NullCheck(L_43);
+		StringBuilder_t* L_48;
+		L_48 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_43, L_47, NULL);
+		StringBuilder_t* L_49 = V_0;
+		int32_t L_50;
+		L_50 = AndroidConfiguration_get_mobileCountryCode_m9CA2BB13341BBDC11E5B650CF1B85B6D40303728_inline(__this, NULL);
+		int32_t L_51 = L_50;
+		RuntimeObject* L_52 = Box(il2cpp_defaults.int32_class, &L_51);
+		String_t* L_53;
+		L_53 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9D0022B36CE5A8E94E5F09C68F5089031FD2500C, L_52, NULL);
+		NullCheck(L_49);
+		StringBuilder_t* L_54;
+		L_54 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_49, L_53, NULL);
+		StringBuilder_t* L_55 = V_0;
+		int32_t L_56;
+		L_56 = AndroidConfiguration_get_mobileNetworkCode_mC013A6F34F638F8F401A239441D1DB8C5918EF63_inline(__this, NULL);
+		int32_t L_57 = L_56;
+		RuntimeObject* L_58 = Box(il2cpp_defaults.int32_class, &L_57);
+		String_t* L_59;
+		L_59 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral10933E64C71A9E1E7E0C74ACE385513935D69E64, L_58, NULL);
+		NullCheck(L_55);
+		StringBuilder_t* L_60;
+		L_60 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_55, L_59, NULL);
+		StringBuilder_t* L_61 = V_0;
+		int32_t L_62;
+		L_62 = AndroidConfiguration_get_navigation_m60398238358F9FB7E2859FC0E906FB2E10316431_inline(__this, NULL);
+		int32_t L_63 = L_62;
+		RuntimeObject* L_64 = Box(AndroidNavigation_t0AD1C417E0628F858C9DE8181F7B9F347DDCE8BC_il2cpp_TypeInfo_var, &L_63);
+		String_t* L_65;
+		L_65 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral29E8E9D81D577B9968CD9860EFE30FFF3A5EC67F, L_64, NULL);
+		NullCheck(L_61);
+		StringBuilder_t* L_66;
+		L_66 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_61, L_65, NULL);
+		StringBuilder_t* L_67 = V_0;
+		int32_t L_68;
+		L_68 = AndroidConfiguration_get_navigationHidden_m6FDF5368AF77535033F4039A0D31A304A87D9F5E_inline(__this, NULL);
+		int32_t L_69 = L_68;
+		RuntimeObject* L_70 = Box(AndroidNavigationHidden_t3FAFADA8E00EE4250F9D6727AB366C2236902626_il2cpp_TypeInfo_var, &L_69);
+		String_t* L_71;
+		L_71 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralC53110DE3C8FCBD793F1431337AFE51B896E53B2, L_70, NULL);
+		NullCheck(L_67);
+		StringBuilder_t* L_72;
+		L_72 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_67, L_71, NULL);
+		StringBuilder_t* L_73 = V_0;
+		int32_t L_74;
+		L_74 = AndroidConfiguration_get_orientation_mB50EB15E1DCAD234EC7921E8F41F8AF5678F7207_inline(__this, NULL);
+		int32_t L_75 = L_74;
+		RuntimeObject* L_76 = Box(AndroidOrientation_t9DB546BA6E552F1BF3F7E148E5306C16A051C949_il2cpp_TypeInfo_var, &L_75);
+		String_t* L_77;
+		L_77 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral0F072CCE7D329460187EFEA1CCB5B7214C86C971, L_76, NULL);
+		NullCheck(L_73);
+		StringBuilder_t* L_78;
+		L_78 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_73, L_77, NULL);
+		StringBuilder_t* L_79 = V_0;
+		int32_t L_80;
+		L_80 = AndroidConfiguration_get_screenHeightDp_m50773C7C10A7C117D47C651570138D4322D07FD1_inline(__this, NULL);
+		int32_t L_81 = L_80;
+		RuntimeObject* L_82 = Box(il2cpp_defaults.int32_class, &L_81);
+		String_t* L_83;
+		L_83 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral41868C31D37EF057F9E01F4D9D7A2DBCFA859B24, L_82, NULL);
+		NullCheck(L_79);
+		StringBuilder_t* L_84;
+		L_84 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_79, L_83, NULL);
+		StringBuilder_t* L_85 = V_0;
+		int32_t L_86;
+		L_86 = AndroidConfiguration_get_screenWidthDp_m20B096B98845195E74BEB7CBCC80B2FD7A164AD9_inline(__this, NULL);
+		int32_t L_87 = L_86;
+		RuntimeObject* L_88 = Box(il2cpp_defaults.int32_class, &L_87);
+		String_t* L_89;
+		L_89 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral7CB94670BBE2FAEA3C421F7C3C0337D883116FB5, L_88, NULL);
+		NullCheck(L_85);
+		StringBuilder_t* L_90;
+		L_90 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_85, L_89, NULL);
+		StringBuilder_t* L_91 = V_0;
+		int32_t L_92;
+		L_92 = AndroidConfiguration_get_smallestScreenWidthDp_mDA11BF662C316CA2DAD21D113C22AEFD5CF75645_inline(__this, NULL);
+		int32_t L_93 = L_92;
+		RuntimeObject* L_94 = Box(il2cpp_defaults.int32_class, &L_93);
+		String_t* L_95;
+		L_95 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral4A01459ECE845EF0266F0140CB8C436792856709, L_94, NULL);
+		NullCheck(L_91);
+		StringBuilder_t* L_96;
+		L_96 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_91, L_95, NULL);
+		StringBuilder_t* L_97 = V_0;
+		int32_t L_98;
+		L_98 = AndroidConfiguration_get_screenLayoutDirection_mF0650B4F3641A6167FF33D7EA519C4EB7B7990BA(__this, NULL);
+		int32_t L_99 = L_98;
+		RuntimeObject* L_100 = Box(AndroidScreenLayoutDirection_tD8A0AECCD98997F281372B785E3EC65B8557E01B_il2cpp_TypeInfo_var, &L_99);
+		String_t* L_101;
+		L_101 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral291EE628C4887577812D359C2FAC20155EA639F3, L_100, NULL);
+		NullCheck(L_97);
+		StringBuilder_t* L_102;
+		L_102 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_97, L_101, NULL);
+		StringBuilder_t* L_103 = V_0;
+		int32_t L_104;
+		L_104 = AndroidConfiguration_get_screenLayoutSize_mA18253406CBD702D355073E0FA1A182AA428BA71(__this, NULL);
+		int32_t L_105 = L_104;
+		RuntimeObject* L_106 = Box(AndroidScreenLayoutSize_t49D55FCDAC84D0DC194D40D3F15EBC8C2DA6C251_il2cpp_TypeInfo_var, &L_105);
+		String_t* L_107;
+		L_107 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1AB39AEF605AFCE8F11BBE0F6EBADF5BAF053CAE, L_106, NULL);
+		NullCheck(L_103);
+		StringBuilder_t* L_108;
+		L_108 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_103, L_107, NULL);
+		StringBuilder_t* L_109 = V_0;
+		int32_t L_110;
+		L_110 = AndroidConfiguration_get_screenLayoutLong_m4BF5DEC402CC76D24A77B2AE05FB80A6FEB49E2E(__this, NULL);
+		int32_t L_111 = L_110;
+		RuntimeObject* L_112 = Box(AndroidScreenLayoutLong_t088CC399EAFB6B0C25DE08922948BC5288711260_il2cpp_TypeInfo_var, &L_111);
+		String_t* L_113;
+		L_113 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral684EA8D9F058F9FE7CF5D0B7642F27D950EE4B8C, L_112, NULL);
+		NullCheck(L_109);
+		StringBuilder_t* L_114;
+		L_114 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_109, L_113, NULL);
+		StringBuilder_t* L_115 = V_0;
+		int32_t L_116;
+		L_116 = AndroidConfiguration_get_screenLayoutRound_m98C9A129BAE1454BB9BD605D84217A06B09BC008(__this, NULL);
+		int32_t L_117 = L_116;
+		RuntimeObject* L_118 = Box(AndroidScreenLayoutRound_t2B8F508818FD9AB6CD2E57356F3E3201895770F4_il2cpp_TypeInfo_var, &L_117);
+		String_t* L_119;
+		L_119 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCABC7F1D2386EE8F5D31D51418FCBFCA5D58B85D, L_118, NULL);
+		NullCheck(L_115);
+		StringBuilder_t* L_120;
+		L_120 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_115, L_119, NULL);
+		StringBuilder_t* L_121 = V_0;
+		int32_t L_122;
+		L_122 = AndroidConfiguration_get_touchScreen_m88019DA5E4BF5F1425386D3A537615EAA777F583_inline(__this, NULL);
+		int32_t L_123 = L_122;
+		RuntimeObject* L_124 = Box(AndroidTouchScreen_tD17E6F752ACDF758AD0CFC5758068F3C607C0AF7_il2cpp_TypeInfo_var, &L_123);
+		String_t* L_125;
+		L_125 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9092B0DD79ABA16A1F923C923A92D45CEF57B3DC, L_124, NULL);
+		NullCheck(L_121);
+		StringBuilder_t* L_126;
+		L_126 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_121, L_125, NULL);
+		StringBuilder_t* L_127 = V_0;
+		int32_t L_128;
+		L_128 = AndroidConfiguration_get_uiModeNight_m3561F470AF4D4BC9AFC6583DE93F861CF8FFEFEC(__this, NULL);
+		int32_t L_129 = L_128;
+		RuntimeObject* L_130 = Box(AndroidUIModeNight_t913D48AD5C226C85AB9A0D844677705F946A731D_il2cpp_TypeInfo_var, &L_129);
+		String_t* L_131;
+		L_131 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralDCA34AD3D72A8DEAA5C7C5EADAD87690F376E8A7, L_130, NULL);
+		NullCheck(L_127);
+		StringBuilder_t* L_132;
+		L_132 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_127, L_131, NULL);
+		StringBuilder_t* L_133 = V_0;
+		int32_t L_134;
+		L_134 = AndroidConfiguration_get_uiModeType_mCC57F1E35C09495E9A3FD7CBD57778131E4A4D8E(__this, NULL);
+		int32_t L_135 = L_134;
+		RuntimeObject* L_136 = Box(AndroidUIModeType_t11665FD6F15C1B5060FF3085E50CAAB23CF90889_il2cpp_TypeInfo_var, &L_135);
+		String_t* L_137;
+		L_137 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA6C629734987A4963D1A42F0033DCBC30542978C, L_136, NULL);
+		NullCheck(L_133);
+		StringBuilder_t* L_138;
+		L_138 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_133, L_137, NULL);
+		StringBuilder_t* L_139 = V_0;
+		AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* L_140;
+		L_140 = AndroidConfiguration_get_locales_m553A090728CB5588C2C3446B9049EFC48829992E(__this, NULL);
+		NullCheck(L_140);
+		int32_t L_141 = ((int32_t)(((RuntimeArray*)L_140)->max_length));
+		RuntimeObject* L_142 = Box(il2cpp_defaults.int32_class, &L_141);
+		String_t* L_143;
+		L_143 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralF3741E00506888E2217B171870EFBC8D81CDBC4D, L_142, NULL);
+		NullCheck(L_139);
+		StringBuilder_t* L_144;
+		L_144 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_139, L_143, NULL);
+		V_1 = 0;
+		goto IL_02df;
+	}
+
+IL_02ad:
+	{
+		AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* L_145;
+		L_145 = AndroidConfiguration_get_locales_m553A090728CB5588C2C3446B9049EFC48829992E(__this, NULL);
+		int32_t L_146 = V_1;
+		NullCheck(L_145);
+		int32_t L_147 = L_146;
+		AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* L_148 = (L_145)->GetAt(static_cast<il2cpp_array_size_t>(L_147));
+		V_2 = L_148;
+		StringBuilder_t* L_149 = V_0;
+		int32_t L_150 = V_1;
+		int32_t L_151 = L_150;
+		RuntimeObject* L_152 = Box(il2cpp_defaults.int32_class, &L_151);
+		AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* L_153 = V_2;
+		NullCheck(L_153);
+		String_t* L_154;
+		L_154 = AndroidLocale_get_country_m4CF55D4A3CFD71553C727DB60A539CBD1D732456_inline(L_153, NULL);
+		AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* L_155 = V_2;
+		NullCheck(L_155);
+		String_t* L_156;
+		L_156 = AndroidLocale_get_language_m78BC34CC08937A1B4B6B70518179902C0824AA73_inline(L_155, NULL);
+		String_t* L_157;
+		L_157 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral77B8B55C5040AC9D1BDABB2A6CD417E2E7A85F6C, L_152, L_154, L_156, NULL);
+		NullCheck(L_149);
+		StringBuilder_t* L_158;
+		L_158 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_149, L_157, NULL);
+		int32_t L_159 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_159, 1));
+	}
+
+IL_02df:
+	{
+		int32_t L_160 = V_1;
+		AndroidLocaleU5BU5D_t0E48A0AED90A441E8095AB2C52153ED85AD634C1* L_161;
+		L_161 = AndroidConfiguration_get_locales_m553A090728CB5588C2C3446B9049EFC48829992E(__this, NULL);
+		NullCheck(L_161);
+		V_3 = (bool)((((int32_t)L_160) < ((int32_t)((int32_t)(((RuntimeArray*)L_161)->max_length))))? 1 : 0);
+		bool L_162 = V_3;
+		if (L_162)
+		{
+			goto IL_02ad;
+		}
+	}
+	{
+		StringBuilder_t* L_163 = V_0;
+		NullCheck(L_163);
+		String_t* L_164;
+		L_164 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_163);
+		V_4 = L_164;
+		goto IL_02f9;
+	}
+
+IL_02f9:
+	{
+		String_t* L_165 = V_4;
+		return L_165;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidConfiguration_get_primaryLocaleCountry_m3BF98232E5121A9957EE0771B2FE96D59A07FED9_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CprimaryLocaleCountryU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidConfiguration_get_primaryLocaleLanguage_m6036D7716067E3C52579AEF10AB67FA5E2AF034F_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CprimaryLocaleLanguageU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_colorMode_m700935DC2CE77048A2A0C85C3A8110C7447BCFDA_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CcolorModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenLayout_m11128E91C2918F74228B7A75CD553CBDD0DEE4C0_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CscreenLayoutU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_uiMode_mE108E6B5938F07F4A2EBC69EE162A6574B731339_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CuiModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_densityDpi_m6DCB1B6665634092B927CB51572C6C906B70A8C9_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CdensityDpiU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AndroidConfiguration_get_fontScale_m22CED04AD4608BB978F7332836F19FE43095484B_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___U3CfontScaleU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_fontWeightAdjustment_mE46C6D355401711B3048E9FE63003D6BD7083B04_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CfontWeightAdjustmentU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_keyboard_mE9C11E5BB3F8EC3599A296CD137A09F998C1052C_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CkeyboardU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_hardKeyboardHidden_mE3102E5F9769936ACB6151FF777F4EF372EB8A34_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3ChardKeyboardHiddenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_keyboardHidden_m0BAEC76E37F070768AF06E39BEB9B2F654D89007_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CkeyboardHiddenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_mobileCountryCode_m9CA2BB13341BBDC11E5B650CF1B85B6D40303728_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CmobileCountryCodeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_mobileNetworkCode_mC013A6F34F638F8F401A239441D1DB8C5918EF63_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CmobileNetworkCodeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_navigation_m60398238358F9FB7E2859FC0E906FB2E10316431_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CnavigationU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_navigationHidden_m6FDF5368AF77535033F4039A0D31A304A87D9F5E_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CnavigationHiddenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_orientation_mB50EB15E1DCAD234EC7921E8F41F8AF5678F7207_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CorientationU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenHeightDp_m50773C7C10A7C117D47C651570138D4322D07FD1_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CscreenHeightDpU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_screenWidthDp_m20B096B98845195E74BEB7CBCC80B2FD7A164AD9_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CscreenWidthDpU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_smallestScreenWidthDp_mDA11BF662C316CA2DAD21D113C22AEFD5CF75645_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CsmallestScreenWidthDpU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AndroidConfiguration_get_touchScreen_m88019DA5E4BF5F1425386D3A537615EAA777F583_inline (AndroidConfiguration_t7D5E737292DAE79648D18ED1EC44801762FD2821* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CtouchScreenU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidLocale_get_country_m4CF55D4A3CFD71553C727DB60A539CBD1D732456_inline (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CcountryU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AndroidLocale_get_language_m78BC34CC08937A1B4B6B70518179902C0824AA73_inline (AndroidLocale_tD3DD517AF81D48109C281C82B6ABEBB2A91E5075* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3ClanguageU3Ek__BackingField;
+		return L_0;
+	}
+}

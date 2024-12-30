@@ -1,0 +1,178 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+struct LayoutNode_tADF081B0F16F76B66459DE38F3AD8EC098F22CBE;
+struct LayoutSize_tA35C1CF14C9C804352EFA70BFBEC54BBAE5C0D0A;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 
+{
+	int32_t ___m_XMin;
+	int32_t ___m_YMin;
+	int32_t ___m_Width;
+	int32_t ___m_Height;
+};
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A 
+{
+	int32_t ___m_X;
+	int32_t ___m_Y;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct ARWorldMapRequestStatus_tA497BB9193D2D0C1734F9B47F5D1F438E6C146CC 
+{
+	int32_t ___value__;
+};
+struct LayoutMeasureMode_tF611505DD74982A0B40646994C952A094E98FB30 
+{
+	int32_t ___value__;
+};
+struct NSError_t2D5B776DCC1C16BD32BA4EB06DE60A3068378E80 
+{
+	intptr_t ___m_Self;
+};
+struct PerformanceDomain_t643C880E75334C144C3C4371D8908AAA8EAE68AB 
+{
+	int32_t ___value__;
+};
+struct PerformanceNotificationLevel_t193B423AAAA756D0F214A0BD35D6F2F834236F22 
+{
+	int32_t ___value__;
+};
+struct PerformanceSubDomain_t7A62BDCAA3DB2B70953008BE33C13BE975DC9222 
+{
+	int32_t ___value__;
+};
+struct TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D 
+{
+	int32_t ___value__;
+};
+struct XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195 
+{
+	int32_t ___value__;
+};
+struct ScriptEvent_t98D7BEA7A83AEC5AC0316FCED0B85028D4E75DAD 
+{
+	int32_t ___value__;
+};
+struct NativeEvent_t2C54A0DE392B348B223984562B66B06F48BC7F04 
+{
+	int32_t ___value__;
+};
+struct AsyncConversionStatus_tB9035BBA640774DAFF34FEEE5DF141A2F24E1236 
+{
+	int32_t ___value__;
+};
+struct Transformation_t26ED8CF20E035506740A8504E00ECD67AF5FD137 
+{
+	int32_t ___value__;
+};
+struct PerformanceChangeNotification_t68CEE147E0116EB9C4506C2573D8FE5BAFD2803F 
+{
+	int32_t ___domain;
+	int32_t ___subDomain;
+	int32_t ___fromLevel;
+	int32_t ___toLevel;
+};
+struct ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 
+{
+	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___m_InputRect;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___m_OutputDimensions;
+	int32_t ___m_Format;
+	int32_t ___m_Transformation;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCameraBackground_BeforeBackgroundRenderHandler_m3B215B54CFB6F6F00A724D9A6BE66808593ABFCD(int32_t ___0_eventId);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARKitSessionDelegate_CoachingOverlayViewDidDeactivate_m65EDACCF49DE4C8A6E4CA7F6E3A7104D116432EE(intptr_t ___0_subsystemHandle);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARKitSessionDelegate_CoachingOverlayViewWillActivate_m3F9ECC227F1E397CE7C57A505FB3FFB8ADBE573B(intptr_t ___0_subsystemHandle);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARKitSessionDelegate_ConfigurationChanged_m476431686AC17DA3287883D35C2CAF98A1FA8558(intptr_t ___0_subsystemHandle);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARKitSessionDelegate_SessionDidFailWithError_mC4CFE813C1C8FCF592EE9B661DB1E51C8DD12399(intptr_t ___0_subsystemHandle, NSError_t2D5B776DCC1C16BD32BA4EB06DE60A3068378E80 ___1_error);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARKitSessionSubsystem_OnAsyncConversionComplete_m644D3F9DB9A9E22010B098BCF12F296ED7B219E6(int32_t ___0_status, int32_t ___1_worldMapId, intptr_t ___2_context);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_m407BCFC1029A4485B7B063BC2F3601968C3BE577(Il2CppChar* ___0_language);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_HighResolutionCpuImagePromise_OnPromiseComplete_m444E8F248DC80401DF6C4D497B2BA2CCF47B7C55(int32_t ___0_wasSuccessful);
+extern "C" float CDECL ReversePInvokeWrapper_LayoutDelegates_InvokeBaselineFunction_m964C07F9F04D50B3D709ED835CAE6E5557FA9833(LayoutNode_tADF081B0F16F76B66459DE38F3AD8EC098F22CBE* ___0_node, float ___1_width, float ___2_height);
+extern "C" void CDECL ReversePInvokeWrapper_LayoutDelegates_InvokeMeasureFunction_m2116A3480F9DB31C9E890DD1DF19C206966B76DB(LayoutNode_tADF081B0F16F76B66459DE38F3AD8EC098F22CBE* ___0_node, float ___1_width, int32_t ___2_widthMode, float ___3_height, int32_t ___4_heightMode, intptr_t* ___5_exception, LayoutSize_tA35C1CF14C9C804352EFA70BFBEC54BBAE5C0D0A* ___6_result);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_mFBBF94D9868CA6870E3A6A78D831145376372D46(char* ___0_function, int32_t ___1_result);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_m70AB6148D0D9FCD315ACDB6B46131514D128380D(char* ___0_function);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_m4A8AAF0A455A02262E3B74CB3DB498A88C84AD14(int32_t ___0_evt, uint64_t ___1_param);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mF93C3CF6DBEC86E377576D840CAF517CB6E4D7E3(intptr_t ___0_arg);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m521057A79D56E2995A93CEB8B66A60B4297896F0(int32_t ___0_e, uint64_t ___1_payload);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_mDC3A0C88A34909C9D08E4BE7E94C8E27E2BB3D3C(int32_t ___0_status, ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 ___1_conversionParams, intptr_t ___2_dataPtr, int32_t ___3_dataLength, intptr_t ___4_context);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_XrPerformanceSettingsFeature_OnXrPerformanceNotificationCallback_mDF4DDC25F3DA9160903A0967ABCBC0F43FF1AC44(PerformanceChangeNotification_t68CEE147E0116EB9C4506C2573D8FE5BAFD2803F ___0_notification);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_iOSStepCounter_OnDataReceived_m5026961D9D4D64A5930020A91D82DF64E65591C0(int32_t ___0_deviceId, int32_t ___1_numberOfSteps);
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[18] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCameraBackground_BeforeBackgroundRenderHandler_m3B215B54CFB6F6F00A724D9A6BE66808593ABFCD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARKitSessionDelegate_CoachingOverlayViewDidDeactivate_m65EDACCF49DE4C8A6E4CA7F6E3A7104D116432EE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARKitSessionDelegate_CoachingOverlayViewWillActivate_m3F9ECC227F1E397CE7C57A505FB3FFB8ADBE573B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARKitSessionDelegate_ConfigurationChanged_m476431686AC17DA3287883D35C2CAF98A1FA8558),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARKitSessionDelegate_SessionDidFailWithError_mC4CFE813C1C8FCF592EE9B661DB1E51C8DD12399),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARKitSessionSubsystem_OnAsyncConversionComplete_m644D3F9DB9A9E22010B098BCF12F296ED7B219E6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_m407BCFC1029A4485B7B063BC2F3601968C3BE577),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_HighResolutionCpuImagePromise_OnPromiseComplete_m444E8F248DC80401DF6C4D497B2BA2CCF47B7C55),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_LayoutDelegates_InvokeBaselineFunction_m964C07F9F04D50B3D709ED835CAE6E5557FA9833),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_LayoutDelegates_InvokeMeasureFunction_m2116A3480F9DB31C9E890DD1DF19C206966B76DB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_mFBBF94D9868CA6870E3A6A78D831145376372D46),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_m70AB6148D0D9FCD315ACDB6B46131514D128380D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_m4A8AAF0A455A02262E3B74CB3DB498A88C84AD14),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mF93C3CF6DBEC86E377576D840CAF517CB6E4D7E3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m521057A79D56E2995A93CEB8B66A60B4297896F0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_mDC3A0C88A34909C9D08E4BE7E94C8E27E2BB3D3C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_XrPerformanceSettingsFeature_OnXrPerformanceNotificationCallback_mDF4DDC25F3DA9160903A0967ABCBC0F43FF1AC44),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_iOSStepCounter_OnDataReceived_m5026961D9D4D64A5930020A91D82DF64E65591C0),
+};
